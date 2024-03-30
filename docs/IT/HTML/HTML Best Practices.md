@@ -82,7 +82,7 @@ button {
 >[!note] 3 класса на элемент это максимум
 
 
-Лучше использовать [[@mixin and @include|@mixin]].
+Лучше использовать [[1. @mixin and @include|@mixin]].
 Пример:
 ```scss
 .reusable-styles {  

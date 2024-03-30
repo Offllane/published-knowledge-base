@@ -1,11 +1,13 @@
-# Obsidian Notes
+# Offllane Knowledge Base
 
-Publish your public notes with MkDocs
+Здесь я по чуть-чуть собираю свои знания. Пока здесь в основном JavaScript и браузерные нюансы. Но также здесь есть немного полезного контента и по другим направлениям.
 
-## Hello World!
+## Заметки для изучения
 
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+1. [[0. Общие понятия программирования]] (Заметки по браузеру некоторой терминологии)
+2. [[0. HTML]] (Всего пару заметок)
+3. [[0. CSS]] (Всего пару заметок)
+4. [[0. JavaScript]] (Много заметок по разным темам, в основном база)
+5. [[0. TypeScript]] (Всего пару заметок)
+6. [[Best Practices]] (Несколько больших заметок о лучших практиках в html, css, js)
+7. [[0. Все задачи]] (Много интересных задач по разным темам)
