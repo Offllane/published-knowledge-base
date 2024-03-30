@@ -2,8 +2,8 @@ site_name: Offllane's Knowledge Base
 
 theme:
     name: 'material'
-    logo: assets/logo.svg
-    favicon: assets/logo.svg
+    logo: assets/images/logo.svg
+    favicon: assets/images/favicon.iso
     palette:
 
     # Light mode
