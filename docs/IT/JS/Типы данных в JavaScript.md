@@ -1,4 +1,4 @@
-Все типы данных в JavaScript
+#### Все типы данных в JavaScript:
 1. number
 2. bigInt
 3. string
