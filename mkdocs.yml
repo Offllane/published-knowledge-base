@@ -2,14 +2,14 @@ site_name: Offllane's Knowledge Base
 
 theme:
     name: 'material'
-    logo: assets/images/logo.svg
-    favicon: assets/images/logo.svg
+    logo: assets/logo.svg
+    favicon: assets/logo.svg
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: black
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
@@ -18,7 +18,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: black
       accent: blue
       toggle:
         icon: material/toggle-switch
@@ -53,14 +53,6 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
-  - blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
 
 extra_javascript:
   - javascripts/mathjax.js
