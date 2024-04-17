@@ -28,11 +28,13 @@ theme:
 markdown_extensions:
   - footnotes
   - callouts
+  - admonition
+  - nl2br
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
-  # - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
