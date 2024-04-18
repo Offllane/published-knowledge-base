@@ -21,15 +21,19 @@ map.set(true, "bool1"); // булево значение как ключ
 ```
 
 > [!note] Map может использовать объекты в качестве ключа
-> ```js
->let john = { name: "John" };
->// давайте сохраним количество посещений для каждого пользователя
->let visitsCountMap = new Map();
->// объект john - это ключ для значения в объекте Map
->visitsCountMap.set(john, 123);
->alert(visitsCountMap.get(john)); // 123
+
+ ```js
+let john = { name: "John" };
+// давайте сохраним количество посещений для каждого пользователя
+let visitsCountMap = new Map();
+// объект john - это ключ для значения в объекте Map
+visitsCountMap.set(john, 123);
+alert(visitsCountMap.get(john)); // 123
+```
+
 
 >[!note] Каждый вызов `map.set` возвращает объект map, так что мы можем объединить вызовы в цепочку:
+
 ```js
 map.set('1', str1)
    .set(1, num1)
